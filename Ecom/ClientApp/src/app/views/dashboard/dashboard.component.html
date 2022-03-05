@@ -1,0 +1,135 @@
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Products</h2>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4 padder heighter card text-right">
+            <ng-container *ngIf='products.length > 0'>
+                <pagination-controls (pageChange)="page = $event"></pagination-controls>
+            </ng-container>
+        </div>
+        <div class="col-4 heighter form-group">
+            <select style="padding-bottom: 7px !important;" (change)='getProductByCat($event)' class="form-control" id="">
+                <option value="0">Choose Category Of Products</option>
+                <option  value={{cat.id}} *ngFor='let cat of categories'>{{cat.name}}</option>
+            </select>
+        </div>
+        <div class="col-4 heighter form-group">
+            <ng-container *ngIf='products.length > 0'>
+                <input type="text" class="form-control" [(ngModel)]='searchName' (keyup)='applyFilter()' placeholder="Search item by name">
+            </ng-container>
+        </div>
+    </div>
+    <div class="row">
+        <ng-container *ngIf='products.length < 1'>
+            <div class="col-12 mt-2">
+                <h3 class="text-center text-warning">No Product found!!</h3>
+            </div>
+        </ng-container>
+        <ng-container *ngIf='products.length > 0'>
+            <div class="col-lg-4 mt-4" *ngFor='let product of products | filterAll: searchName | paginate: { itemsPerPage: 3, currentPage: page} '>
+                <div class="card">
+                    <img style="height: 260px !important;" src={{product.image}} class="card-img-top" alt="">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <h5 class="card-title">{{product.name}}</h5>
+                            </div>
+                            <div class="col-4">
+                                <h5 class="text-success">{{product.price}} $</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text ">Category : <b class="text-primary">{{product.categoryName}}</b></p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text ">Condition : <b class="text-primary">{{product.condition}}</b></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text ">Locations : <b class="text-primary">{{product.location}}</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-success">{{product.comment}}</p>
+                        <a (click)='addToCart(product)' class="btn btn-primary">
+                            <i class="fas fa-cart-plus">Add To Cart</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+
+    <br>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2> Special Offer Products</h2>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-4 padder heighter card">
+            <ng-container *ngIf='discountedProducts.length > 0'>
+                <pagination-controls (pageChange)="discountPage = $event"></pagination-controls>
+            </ng-container>
+        </div>
+        <div class="col-4 heighter form-group">
+            <select style="padding-bottom: 7px !important;" (change)='getDisountProductByCat($event)' class="form-control" id="">
+                <option value="0">Choose Category Of Products</option>
+                <option  value={{cat.id}} *ngFor='let cat of categories'>{{cat.name}}</option>
+            </select>
+        </div>
+        <div class="col-4 heighter form-group">
+            <ng-container *ngIf='discountedProducts.length > 0'>
+                <input type="text" class="form-control" [(ngModel)]='discountSearchName' (keyup)='applyFilter()' placeholder="Search item by name">
+            </ng-container>
+        </div>
+    </div>
+    <div class="row">
+        <ng-container *ngIf='discountedProducts.length < 1'>
+            <div class="col-12 mt-2">
+                <h3 class="text-center text-warning">No Product found!!</h3>
+            </div>
+        </ng-container>
+        <ng-container *ngIf='discountedProducts.length > 0'>
+            <div class="col-lg-4 mt-4" *ngFor='let product of discountedProducts | filterAll: discountSearchName | paginate: { itemsPerPage: 3, currentPage: discountPage} '>
+                <div class="card">
+                    <img style="height: 260px !important;" src={{product.image}} class=" card-img-top " alt=" ">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-8">
+                                <h5 class="card-title">{{product.name}}</h5>
+                            </div>
+                            <div class="col-4">
+                                <h5 class="text-success">{{product.discountPrice}} $</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text ">Category : <b class="text-primary">{{product.categoryName}}</b></p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text ">Condition : <b class="text-primary">{{product.condition}}</b></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text ">Locations : <b class="text-primary">{{product.location}}</b></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="card-text text-success">{{product.comment}}</p>
+                        <a (click)='addToCartDiscount(product)' class="btn btn-primary ">
+                            <i class="fas fa-cart-plus ">Add To Cart</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+</div>

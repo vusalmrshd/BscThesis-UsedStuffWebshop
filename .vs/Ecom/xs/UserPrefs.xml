@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{FF091E1D-95D7-463E-99D9-E5E152C161BD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ecom/ClientApp/src/app/views/orders/orders.component.html">
+    <Files>
+      <File FileName="Ecom/ClientApp/src/index.html" Line="1" Column="1" />
+      <File FileName="Ecom/ClientApp/src/app/views/orders/orders.component.html" Line="38" Column="74" />
+      <File FileName="Ecom/ClientApp/src/app/views/orders/orders.component.ts" />
+      <File FileName="Core/Services/OrderService.cs" Line="128" Column="129" />
+      <File FileName="Ecom/Controllers/OrderController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ecom" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="Interface" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Ecom" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="shared" expanded="True" />
+                    <Node name="views" expanded="True">
+                      <Node name="orders" expanded="True">
+                        <Node name="orders.component.html" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="assets" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Models" expanded="True">
+              <Node name="Request" expanded="True">
+                <Node name="Order" expanded="True" />
+              </Node>
+              <Node name="Utils" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Ecom PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/eapplestore/Projects/Fiverr/davedutch/SCMS/SCMS/Controllers/APi/AuthController.cs" line="15" column="1" />
+      <Breakpoint file="/Users/eapplestore/Projects/Fiverr/Ecom/Core/Services/ProductService.cs" relfile="Core/Services/ProductService.cs" line="114" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

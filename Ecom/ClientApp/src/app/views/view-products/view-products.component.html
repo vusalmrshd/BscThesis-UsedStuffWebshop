@@ -1,0 +1,232 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <h1>Products</h1>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <button class="btn btn-md btn-primary" (click)='addProduct()'>Add product</button>
+        </div>
+        <div class="col-12 mt-3">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Discount Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngIf='products.length < 1'>
+                        <h5 class="text-center text-warning">No product exists</h5>
+                    </ng-container>
+                    <ng-container *ngIf='products.length > 0'>
+                        <tr *ngFor='let product of products| paginate: { itemsPerPage: 5, currentPage: page}'>
+                            <td class="text-primary">
+                                <img src={{product.image}} style="max-width: 75px !important;" class="img-fluid img-thumbnail" alt="">
+                            </td>
+                            <td>{{product.name}}</td>
+                            <td class="text-success">{{product.price}} $</td>
+                            <td class="text-primary">{{product.categoryName}}</td>
+                            <td class="text-success">{{product.isDiscounted ? product.discountPrice : 0}} $</td>
+                            <td>
+                                <span class="mr-4" style="margin-right: 5px;cursor: pointer;">
+                                    <i class="fas fa-trash mr-3 text-danger" (click)='deleteProduct(product)'></i>
+                                </span>
+                                <span class="ml-4" style="margin-left: 5px;cursor: pointer;">
+                                    <i class="far fa-edit text-warning" (click)='editProduct(product)'></i>
+                                </span>
+                            </td>
+                        </tr>
+                    </ng-container>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <ng-container *ngIf='products.length > 0'>
+                            <td>
+                                <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                            </td>
+                        </ng-container>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Confirm Modal -->
+<div class="modal" id="confirmModal" tabindex="-1" aria-labelledby="confirmModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete {{productToDelete.name}}?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" (click)='confirmDelete()'>Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Edit Modal -->
+<div class="modal" id="editModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit {{productToEdit.name}}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <ng-container *ngIf='editFormOpen'>
+                <form [formGroup]="form">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <div class="col-12 form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control" formControlName='name'>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["name"].hasError("required")'>Field required</small>
+                                </div>
+                                <div class="col-12 form-group mt-3">
+                                    <label for="price">Price</label>
+                                    <input type="number" min="1" id="name" class="form-control" formControlName='price'>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["price"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="location">Location</label>
+                                    <input type="text" id="location" class="form-control" formControlName='location'>
+
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="condition">Condition</label>
+                                    <input type="text" id="condition" class="form-control" formControlName='condition'>
+
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="comment">Comment</label>
+                                    <input type="text" id="comment" class="form-control" formControlName='comment'>
+
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="catId">Category</label>
+                                    <select type="text" id="catId" class="form-control" formControlName='catId'>
+                                        <option value="0">Select Category</option>
+                                        <option *ngFor='let cat of categories' value={{cat.id}}>{{cat.name}}</option>
+                                    </select>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["catId"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-check mt-3">
+                                    <label for="isDiscount" class="form-check-label">IsDiscount</label>
+                                    <input type="checkbox" (click)='discount($event)' min="1" id="isDiscount" class="form-check-input" formControlName='isDiscount'>
+                                </div>
+
+                                <div class="col-12 form-group mt-3" *ngIf='isDiscount'>
+                                    <label for="discountPrice">Discount Price</label>
+                                    <input type="number" min="1" id="discountPrice" class="form-control" formControlName='discountPrice'>
+                                </div>
+                                <div class="col-12 form-group mt-3">
+                                    <label for="image">Image</label>
+                                    <input type="file" id="image" (change)='onFileChange($event)' class="form-control" formControlName='image'>
+                                    <!-- <small class="text-danger" *ngIf='submitted && form.controls["image"].hasError("required")'>Field required</small> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" type='submit' class="btn btn-warning" (click)='update()'>Update</button>
+                    </div>
+                </form>
+            </ng-container>
+        </div>
+    </div>
+</div>
+
+
+<!-- Add Modal -->
+<div class="modal" id="addModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="addModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <ng-container *ngIf='addFormOpen'>
+                <form [formGroup]="addForm">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <div class="col-12 form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control" formControlName='name'>
+                                    <small class="text-danger" *ngIf='addSubmitted && addForm.controls["name"].hasError("required")'>Field required</small>
+                                </div>
+                                <div class="col-12 form-group mt-3">
+                                    <label for="price">Price</label>
+                                    <input type="number" min="1" id="name" class="form-control" formControlName='price'>
+                                    <small class="text-danger" *ngIf='addSubmitted && addForm.controls["price"].hasError("required")'>Field required</small>
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label for="location">Location</label>
+                                    <input type="text" id="location" class="form-control" formControlName='location'>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["location"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="condition">Condition</label>
+                                    <input type="text" id="condition" class="form-control" formControlName='condition'>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["condition"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="comment">Comment</label>
+                                    <input type="text" id="comment" class="form-control" formControlName='comment'>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["comment"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label for="catId">Category</label>
+                                    <select type="text" id="catId" class="form-control" formControlName='catId'>
+                                        <option value="0">Select Category</option>
+                                        <option *ngFor='let cat of categories' value={{cat.id}}>{{cat.name}}</option>
+                                    </select>
+                                    <small class="text-danger" *ngIf='submitted && form.controls["catId"].hasError("required")'>Field required</small>
+                                </div>
+
+                                <div class="col-12 form-group mt-3">
+                                    <label for="image">Image</label>
+                                    <input type="file" id="image" (change)='onAddProductFileChange($event)' class="form-control" formControlName='image'>
+                                    <small class="text-danger" *ngIf='addSubmitted && addForm.controls["image"].hasError("required")'>Field required</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" type='submit' class="btn btn-primary" (click)='insertProduct()'>Insert</button>
+                    </div>
+                </form>
+            </ng-container>
+        </div>
+    </div>
+</div>

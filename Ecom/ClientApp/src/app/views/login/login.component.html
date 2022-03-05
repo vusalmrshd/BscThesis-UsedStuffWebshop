@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="card" style="top:100px">
+        <div class="card-header">
+            <h1 class="text-center">Login</h1>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+
+                <form [formGroup]="authForm" (ngSubmit)="register()">
+                    <div class="col-12 form-group">
+                        <label for="email">Email</label>
+                        <input type="email" formControlName='userNameOrEmail' class="form-control" id="email" placeholder="jondoe@email.com">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['userNameOrEmail'].hasError('required')">Please enter email</small>
+                    </div>
+
+                    <div class="col-12 mt-3 form-group">
+                        <label for="password">Password</label>
+                        <input type="password" formControlName='password' class="form-control" id="password" placeholder="Your password">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['password'].hasError('required')">Please enter password</small>
+                    </div>
+
+                    <div class="col-12 mt-2 text-right">
+                        <a [routerLink]='forgetPasswordRoute' style="cursor: pointer;" class="text-right">Forget Password?</a>
+                    </div>
+
+                    <ng-container *ngIf="showAlert">
+                        <div class="alert mt-3" [ngClass]="{'alert-danger': errorAlert === true,'alert-success':successAlert === true}" role="alert">
+                            {{alertMessage}}
+                        </div>
+                    </ng-container>
+
+                    <div class="col-12 mt-4 text-right">
+                        <button class="btn btn-md text-center btn-outline-success" type="submit">Login!</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="card-footer row">
+            <div class="col-6">
+                <h6 class="text-primary" [routerLink]="registerRoute">Create Account?</h6>
+            </div>
+            <div class="col-6">
+                <h6 class="float-right">
+                    <a href="#" class="text-success" style="text-decoration: none;">Buy something?</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+</div>

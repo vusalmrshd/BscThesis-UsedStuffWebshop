@@ -1,0 +1,161 @@
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/appsettings.Development.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/appsettings.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.deps.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.runtimeconfig.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.runtimeconfig.dev.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/ref/Ecom.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.Views.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Ecom.Views.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Humanizer.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/MailKit.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.AspNetCore.SpaServices.Extensions.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/MimeKit.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/NETCore.MailKit.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/BouncyCastle.Crypto.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.IO.Pipelines.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.Runtime.Caching.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Core.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Models.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Core.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Models.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.AssemblyInfoInputs.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.AssemblyInfo.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.csproj.CoreCompileInputs.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.MvcApplicationPartsAssemblyInfo.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.RazorAssemblyInfo.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.RazorAssemblyInfo.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/staticwebassets/Ecom.StaticWebAssets.Manifest.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/staticwebassets/Ecom.StaticWebAssets.xml
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/scopedcss/bundle/Ecom.styles.css
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.TagHelpers.input.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.TagHelpers.output.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.RazorCoreGenerate.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.RazorTargetAssemblyInfo.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.RazorTargetAssemblyInfo.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.Views.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.csproj.CopyComplete
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/ref/Ecom.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.genruntimeconfig.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/obj/Debug/net5.0/Ecom.csproj.AssemblyReference.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Ecom/bin/Debug/net5.0/Stripe.net.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\appsettings.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.exe
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.deps.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.runtimeconfig.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.runtimeconfig.dev.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\ref\Ecom.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.Views.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Ecom.Views.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\MailKit.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Stripe.net.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Core.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Models.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Core.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\bin\Debug\net5.0\Models.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.csproj.AssemblyReference.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.AssemblyInfoInputs.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.AssemblyInfo.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.csproj.CoreCompileInputs.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.RazorAssemblyInfo.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.RazorAssemblyInfo.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\staticwebassets\Ecom.StaticWebAssets.Manifest.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\staticwebassets\Ecom.StaticWebAssets.xml
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\scopedcss\bundle\Ecom.styles.css
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.TagHelpers.input.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.TagHelpers.output.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.RazorCoreGenerate.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.RazorTargetAssemblyInfo.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.RazorTargetAssemblyInfo.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.Views.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.csproj.CopyComplete
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\ref\Ecom.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Ecom\obj\Debug\net5.0\Ecom.genruntimeconfig.cache

@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3 class="text-center text-primary">Categories</h3>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <button class="btn btn-sm btn-primary" (click)='openModal()'>Add New</button>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <table class="table table-hover table-responsive-lg table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>Category Id</th>
+                        <th>Category name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container *ngIf='categories.length < 1'>
+                        <tr>
+                            <td>No Categories</td>
+                        </tr>
+                    </ng-container>
+                    <ng-container *ngIf='categories.length >0'>
+                        <tr *ngFor='let cat of categories | paginate: { itemsPerPage: 6, currentPage: page}'>
+                            <td>{{cat.id}}</td>
+                            <td class="text-success">{{cat.name}}</td>
+                            <td>
+                                <button class="btn btn-md btn-danger" (click)='deleteCategory(cat.id)'>
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </ng-container>
+                </tbody>
+                <tfoot>
+                    <tr *ngIf='categories.length >0'>
+                        <td>
+                            <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Checkout Modal -->
+<div class="modal fade" id="cat" data-bs-backdrop="static" tabindex="-1" aria-labelledby="cat" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cat">New Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form [formGroup]='form'>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" formControlName='name'>
+                                <small class="text-danger" *ngIf='submitted && form.controls["name"].hasError("required")'>Name required</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-outline-success" (click)='insertCategoriy()'>Insert</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

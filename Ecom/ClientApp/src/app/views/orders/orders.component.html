@@ -1,0 +1,95 @@
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3 class="text-center text-primary">Your Orders</h3>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <table class="table table-hover table-responsive-lg table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>Order Id</th>
+                        <th>Order price</th>
+                        <th>Customer Name</th>
+                        <th>Customer Email</th>
+                        <th>Customer Address</th>
+                        <th>Seller Name</th>
+                        <th>Seller Email</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let order of orders | paginate: { itemsPerPage: 6, currentPage: page}'>
+                        <td>{{order.orderId}}</td>
+                        <td class="text-success">{{order.orderPrice}} $</td>
+                        <td>{{order.customerName}}</td>
+                        <td>{{order.customerEmail}}</td>
+                        <td>{{order.address}}</td>
+                        <td>{{order.sellerName}}</td>
+                        <td>{{order.sellerEmail}}</td>
+                        <td>{{order.sellerId == user.userId ? 'You are Seller' : 'You are buyer'}}</td>
+                        <td>
+                            <button class="btn btn-sm btn-primary" (click)='selectOrder(order)'>
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button style="margin-left:4px;margin-top:4px" class="btn btn-sm btn-danger" (click)='deleteOrder(order.orderId)'>
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <pagination-controls (pageChange)="page = $event"></pagination-controls>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Checkout Modal -->
+<div class="modal fade" id="checkout" data-bs-backdrop="static" tabindex="-1" aria-labelledby="checkout" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="checkout">Ordered Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-bordered ">
+                            <thead>
+                                <tr>
+                                    <th>Product Id</th>
+                                    <th>Product Name</th>
+                                    <th>Price</th>
+                                    <th>Qty</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor='let prod of selectedOrder.products'>
+                                    <td>{{prod.productId}}</td>
+                                    <td>{{prod.name}}</td>
+                                    <td>{{prod.price}} $</td>
+                                    <td>{{prod.quantity}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>

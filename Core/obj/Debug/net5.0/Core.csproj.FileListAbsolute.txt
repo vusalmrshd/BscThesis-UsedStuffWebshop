@@ -1,0 +1,36 @@
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Core.deps.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Core.runtimeconfig.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Core.runtimeconfig.dev.json
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Core.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/ref/Core.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Core.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Models.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/bin/Debug/net5.0/Models.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.csproj.AssemblyReference.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.AssemblyInfoInputs.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.AssemblyInfo.cs
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.csproj.CoreCompileInputs.cache
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.csproj.CopyComplete
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/ref/Core.dll
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.pdb
+/Users/eapplestore/Projects/Fiverr/Ecom/Core/obj/Debug/net5.0/Core.genruntimeconfig.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Core.runtimeconfig.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Core.runtimeconfig.dev.json
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Core.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Models.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\bin\Debug\net5.0\Models.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.csproj.CopyComplete
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\Vusal Murshudli\Downloads\Ecom (7)\Ecom\Core\obj\Debug\net5.0\Core.genruntimeconfig.cache

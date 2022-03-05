@@ -1,0 +1,73 @@
+<div class="container-fluid">
+    <div class="card mt-5">
+        <!-- style="top:100px" -->
+        <div class="card-header ">
+            <h1 class="text-center">Register</h1>
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+                <form [formGroup]="authForm" (ngSubmit)="register()">
+                    <div class="col-12 form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" formControlName='name' id="name" placeholder="Full name">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['name'].hasError('required')">Please enter name</small>
+                    </div>
+
+                    <div class="col-12 mt-3 form-group">
+                        <label for="username">Username</label>
+                        <input type="username" class="form-control" formControlName='userName' id="username" placeholder="jondoe">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['userName'].hasError('userName')">Please enter username</small>
+                    </div>
+
+
+                    <div class="col-12 mt-3 form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" formControlName='email' id="email" placeholder="jondoe@email.com">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['email'].hasError('required')">Please enter email</small>
+                    </div>
+
+
+                    <div class="col-12 mt-3 form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" formControlName='password' id="password" placeholder="Your password">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['password'].hasError('required')">Please enter password</small>
+                    </div>
+
+                    <!-- <div class="col-12 mt-3 form-group">
+                        <label for="status">Status</label>
+                        <select type="status" class="form-control" formControlName='status' id="status">
+                            <option value="">Select Your Status</option>
+                            <option value="1">Seller</option>
+                            <option value="2">Buyer</option>
+                        </select>
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['status'].hasError('required')">Please choose status</small>
+                    </div> -->
+
+
+                    <div class="col-12 mt-3 form-group">
+                        <label for="image">Profile image</label>
+                        <input type="file" class="form-control" (change)="onFileChange($event)" formControlName='image' id="image" placeholder="">
+                        <small class="text-danger" *ngIf="submitted && authForm.controls['image'].hasError('required')">Please select profile image</small>
+                    </div>
+
+                    <ng-container *ngIf="showAlert">
+                        <div class="alert mt-3" [ngClass]="{'alert-danger': errorAlert === true,'alert-success':successAlert === true}" role="alert">
+                            {{alertMessage}}
+                        </div>
+                    </ng-container>
+
+                    <div class="col-12 mt-3 text-right">
+                        <button class="btn btn-md text-center btn-light btn-outline-success" type="submit">Register!</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="card-footer">
+            <button [routerLink]="loginRoute" class="btn btn-primary">Already Have Account?</button>
+        </div>
+    </div>
+</div>
